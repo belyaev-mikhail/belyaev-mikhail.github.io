@@ -28,6 +28,8 @@ search: true
 twitter:
   username: koppcapp
 
+url: https://belyaev-mikhail.github.io
+
 # Build settings
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
