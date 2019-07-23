@@ -2,6 +2,7 @@
 title:  "A new view on things in life"
 categories: post
 date: "2019-07-23 20:00:00"
+classes: wide
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacus nibh, rhoncus id lectus eget, malesuada consectetur lacus. Vestibulum condimentum ipsum nunc, ac dictum eros tristique nec. Ut vitae bibendum velit. Donec ac odio eget velit tempus pulvinar. Aenean fringilla non nisi id eleifend. Duis fermentum feugiat tempor. Integer sit amet vestibulum arcu, vitae vehicula risus. Suspendisse metus nulla, suscipit sit amet feugiat eu, egestas non neque. In elementum leo in lorem elementum, sit amet volutpat velit malesuada. Sed odio est, pellentesque sit amet libero at, lobortis aliquet mauris.
