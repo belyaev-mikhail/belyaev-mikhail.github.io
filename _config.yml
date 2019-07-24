@@ -101,7 +101,7 @@ author:
   name: *name
   avatar: *avatar
   bio: >-
-    I do stuff
+    I do stuff  
     @ SPBSPU/Jetbrains Research
   location: "Saint-Petersburg"
   links: *links
