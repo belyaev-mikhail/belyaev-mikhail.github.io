@@ -1,8 +1,8 @@
 ---
-title:  "Here I will play with myself a little bit"
+title:  "A post to test the markdown features the platform has"
 categories: post
-date: 2019-07-23 14:00:00
-last_modified_at: 2019-07-24 15:33:00
+date: "2019-07-23 14:00:00"
+last_modified_at: "2019-07-24 15:33:00"
 classes: wide
 ---
 
