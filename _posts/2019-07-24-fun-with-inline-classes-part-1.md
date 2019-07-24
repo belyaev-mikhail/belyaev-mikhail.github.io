@@ -7,6 +7,8 @@ tags:
 date: "2019-07-24 16:06:00"
 last_modified_at: "2019-07-24 16:06:00"
 classes: wide
+header:
+  og_image: "/assets/images/kotlin.png"
 ---
 
 Kotlin 1.3.* is here for quite some time and some experimental features are here with it.
