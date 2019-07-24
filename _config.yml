@@ -13,29 +13,56 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Work in progress
+variables:
+  name: &name "Mikhail Belyaev"
+  twitter_username: &twitter_username koppcapp
+  github_username: &github_username belyaev-mikhail
+  facebook_username: &facebook_username "mikhail.belyaev.v.2.0"
+  telegram_username: &telegram_username koppcapp
+  avatar: &avatar "/assets/images/avatar.jpg"
+  links: &links
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: &twitter "https://twitter.com/koppcapp"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: &github "https://github.com/belyaev-mikhail"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: &telegram "https://t.me/koppcapp"
+
+title: "Personal blog by Mikhail Belyaev"
 email: belyaev@kspt.icc.spbstu.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Your description will be here, too
+  Personal blog by Mikhail Belyaev
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-name: "Mikhail Belyaev"
-twitter_username: koppcapp
-github_username: belyaev-mikhail
-minimal_mistakes_skin: dark
+url: https://belyaev-mikhail.github.io # the base hostname & protocol for your site, e.g. http://example.com
+name: *name
+twitter_username: *twitter_username
+github_username: *github_username
 search: true
+# Outputting
+permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 twitter:
-  username: koppcapp
-
-url: https://belyaev-mikhail.github.io
+  username: *twitter_username
+facebook:
+  username: *facebook_username
+og_image: *avatar
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.16.5"
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
-  - jekyll-include-cache
+  - jemoji
 
 include:
   - _pages
@@ -68,31 +95,19 @@ comments:
     shortname: "belyaev-mikhail-github-io"
 
 author:
-  name: "Mikhail Belyaev"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "I do stuff."
+  name: *name
+  avatar: *avatar
+  bio: "I do stuff @ SPBSPU/Jetbrains Research"
   location: "Saint-Petersburg"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: &twitter "https://twitter.com/koppcapp"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: &github "https://github.com/belyaev-mikhail"
+  links: *links
 
 social:
-  type:  Person
-  name:  "Mikhail Belyaev"
+  type: Person
+  name: *name
   links:
     - *twitter
     - *github
     - "https://www.linkedin.com/in/mikhailbelyaev/"
 
 footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: *twitter
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: *github
+  links: *links

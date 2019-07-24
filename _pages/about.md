@@ -1,8 +1,46 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
+sidebar:
+  - image: "/assets/images/bio-photo.jpg"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+## Who am I?
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My name is Mikhail and I write stuff, program stuff and teach stuff.
+In particular, I teach university students and do things for Jetbrains Research at the program analysis and verification lab.
+
+I also know stuff about program analysis and verification, quite a number of programming languages and software engineering in general.
+Right now I'm quite fixed on Kotlin and stuff around it.
+
+## What is this site for?
+
+Mostly for long-writes in English that don't fit into a tweet.
+Technical notes, Kotlin stuff, my thoughts on programming, life and everything.
+
+## What is this site not for?
+
+My personal thoughts and feelings on non-technical stuff.
+I have other social media for that.
+This may change in the future.
+
+## What do I do?
+
+Quite a number of things, actually.
+
+### Teaching
+
+- Theory:
+    - Functional programming (at Peter the Great St. Petersburg Polytechnic University)
+    - Static analysis 101 (at Higher School or Economics/Academic University)
+- Practice:
+    - Programming basics (C/C++/Java/Kotlin)
+    - Software engineering
+
+### Research
+
+TODO()
+
+### Programming
+
+TODO()
