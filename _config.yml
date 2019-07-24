@@ -36,7 +36,7 @@ email: belyaev@kspt.icc.spbstu.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog by Mikhail Belyaev
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://belyaev-mikhail.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://mikhail-belyaev.me # the base hostname & protocol for your site, e.g. http://example.com
 name: *name
 twitter_username: *twitter_username
 github_username: *github_username
