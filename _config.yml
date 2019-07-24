@@ -114,5 +114,11 @@ social:
     - *github
     - "https://www.linkedin.com/in/mikhailbelyaev/"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-144477796-1"
+    anonymize_ip: false # default
+
 footer:
   links: *links
