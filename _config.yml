@@ -65,6 +65,8 @@ plugins:
   - jekyll-feed
   - jemoji
 
+google-site-verification: "g0bepADdadlCCIv09hN50XcgM5cW2Ygc0nYF8i-9jqo"
+
 include:
   - _pages
 
@@ -98,7 +100,9 @@ comments:
 author:
   name: *name
   avatar: *avatar
-  bio: "I do stuff @ SPBSPU/Jetbrains Research"
+  bio: >-
+    I do stuff
+    @ SPBSPU/Jetbrains Research
   location: "Saint-Petersburg"
   links: *links
 
