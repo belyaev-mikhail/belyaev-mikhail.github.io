@@ -28,11 +28,16 @@ This may change in the future.
 
 Quite a number of things, actually.
 
+### Writing
+
+Well, this site.  
+Also, currently writing the [Kotlin language specification (WIP)](https://github.com/kotlin/kotlin-spec).
+
 ### Teaching
 
 - Theory:
     - Functional programming (at Peter the Great St. Petersburg Polytechnic University)
-    - Static analysis 101 (at Higher School or Economics/Academic University)
+    - Program analysis 101 (at Higher School or Economics/Academic University)
 - Practice:
     - Programming basics (C/C++/Java/Kotlin)
     - Software engineering
