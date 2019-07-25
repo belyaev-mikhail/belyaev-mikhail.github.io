@@ -169,3 +169,5 @@ Unfortunately, we still cannot put such a value in a collection or array unless 
 We'll try to mitigate this restriction somewhat in the next posts.
 
 ### To be continued
+
+[**[Part 2]**](/post/fun-with-inline-classes-part-2/)
