@@ -36,6 +36,11 @@ Quite a number of things, actually.
 - Practice:
     - Programming basics (C/C++/Java/Kotlin)
     - Software engineering
+- Diploma projects:
+    - Type classes for Kotlin by Eugine Khandygo
+    - Transpiling C++11/14 code back to C++03 by Yuliy Illarionov
+    - Pattern matching for Kotlin by Sergei Vorobyov
+    - Variadic generics for Kotlin by Pavel Kirphichenkov
 
 ### Research
 
