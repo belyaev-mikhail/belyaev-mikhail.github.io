@@ -39,7 +39,37 @@ Quite a number of things, actually.
 
 ### Research
 
-TODO()
+Scopus ID: 7003903519 [>>](http://www.scopus.com/authid/detail.uri?authorId=7003903519)  
+ORCID: 0000&ndash;0003&ndash;1260&ndash;9211 [>>](http://orcid.org/0000-0003-1260-9211)  
+SPIN: 8235&ndash;4265 [>>](http://elibrary.ru/author_items.asp?authorid=635442)  
+Google Scholar: [>>](https://scholar.google.ru/citations?user=ARBZ6pkAAAAJ)
+
+#### Selected publications:
+
+Akhin M.Kh., Belyaev M.A., Itsykson V.M.,  
+[**Borealis Bounded Model Checker: The Coming of Age Story**](/assets/documents/papers/pause.pdf)  
+PAUSE 2017, pp. 119-137
+
+Belyaev M.A., Itsykson V.M.,  
+[**Fast and safe concrete code execution for reinforcing static analysis and verification**](/assets/documents/papers/tassadar.pdf)  
+Modeling and Analysis of Information Systems 2015, 60 (6), pp. 763–772
+
+Petrov M.A, Gagarski K.A., Belyaev M.A., Itsykson V.M.,  
+[**Using a bounded model checker for test generation: How to kill two birds with one SMT solver.**](/assets/documents/papers/testgen.pdf)  
+Automatic Control and Computer Sciences 2015, 49 (7), pp. 466–472
+
+Akhin M.Kh., Belyaev M.A., Itsykson V.M.,  
+**Software defect detection by combining bounded model checking and approximations of functions**  
+Automatic Control and Computer Sciences 2014, 48 (7), pp. 389–397
+
+Belyaev M.A., Akhin M.Kh., Itsykson V.M.,  
+[**Improving static analysis by loop unrolling on arbitrary iteration**](/assets/documents/papers/derolling.pdf)  
+(the attached pre-publishing version has a different name)  
+University Scientific Journal 2014, 8, pp. 154–168
+
+Belyaev M.A., Gaivoronski S.A.,  
+[**Towards load balancing in SDN-networks during DDoS-Attacks**](/assets/documents/papers/balancer.pdf)  
+2014 MoneTEC proceedings
 
 ### Programming
 
