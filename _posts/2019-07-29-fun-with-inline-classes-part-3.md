@@ -226,7 +226,7 @@ A gist with the whole example can be found [here](https://gist.github.com/belyae
 
 ## Sum types (tagged unions)
 
-Sum types (or eithers, or variants) are found in many functional languages as the first key component of *algebraic data types* (the second being product types).
+[Sum types](https://en.m.wikipedia.org/wiki/Tagged_union) (or eithers, or variants) are found in many functional languages as the first key component of *algebraic data types* (the second being product types).
 They are useful to represent values that are *either* of type `A` or type `B` (of course, more types may be introduced, but we will stop on 2).
 Sum types are similar to *union types*, another type theory concept representing a choice, but are usually distinguished by the fact that sum types are *tagged*, meaning they contain some runtime information on which type is actually stored inside.
 Implementing sum types is rather straightforward, but, you guessed it, introduces overhead through boxing.
