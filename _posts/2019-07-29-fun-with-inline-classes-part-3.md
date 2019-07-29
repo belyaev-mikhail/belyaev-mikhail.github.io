@@ -21,7 +21,7 @@ They are awesome, but have a simple drawback we are already familiar in this ser
 Applying inline classes to this problem, however, seems impossible, because type-safe builders operate using a set of *nested* context objects that hold their own data in a tree-like manner (see the KHTML library as an example).
 Except it is not.
 
-Let's build a simple DSL for printing out stuff to an `Appendable` (which is the interface implemented by both output writers and strinb builders, so, not a bad choice) with structured indentation.
+Let's build a simple DSL for printing out stuff to an `Appendable` (which is the interface implemented by both output writers and string builders, so, not a bad choice) with structured indentation.
 What I want to achieve here is something like this:
 
 ```kotlin
@@ -74,7 +74,6 @@ inline class AppendScope(val appendable: Appendable) {
 ```
 
 The `appendable` property should probably not be public, but it introduces unnecessary complications which I don't want to address here.
-Why make
 Now we need to implemented `IndentScope`, which should hold at least:
 
 - The `appendable` to write to;
@@ -101,7 +100,7 @@ Now we can get away with only one field and make `IndentScope` an `inline` class
 We also introduce our own `indent` to make nested indentation possible.
 This approach does not scale to more than two receivers, though.
 
-And it does not work:
+Aaand... it does not work:
 
 ```kotlin
 fun foo() {
