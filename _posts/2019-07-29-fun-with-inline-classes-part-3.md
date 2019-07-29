@@ -17,7 +17,7 @@ This is where things get a little bit weird, but stay with me.
 ## Scopes: temporary-free DSLs
 
 One of the selling features of Kotlin is the rich applicability of the language to build DSLs with the introduction of [type-safe builders](https://kotlinlang.org/docs/reference/type-safe-builders.html).
-They are awesome, but have a simple drawback we are already familiar in this series of posts: they need introduction of intermediate objects for each new context, which is a little bit annoying.
+They are awesome, but have a simple drawback we are already familiar with in this series of posts: they need introduction of intermediate objects for each new context, and that is a little bit annoying.
 Applying inline classes to this problem, however, seems impossible, because type-safe builders operate using a set of *nested* context objects that hold their own data in a tree-like manner (see the KHTML library as an example).
 Except it is not.
 
@@ -81,7 +81,7 @@ Now we need to implemented `IndentScope`, which should hold at least:
 
 So, two values at least, not applicable for an inline class.
 But do we really need to duplicate the `appendable`?
-Actually, no, it is already available in the `prettyPrintTo` scope, we just need a way to get into it.
+Actually, no, it is already available in the `prettyPrintTo` scope, we just need a way to get to it.
 And the way is pretty simple.
 
 ```kotlin
